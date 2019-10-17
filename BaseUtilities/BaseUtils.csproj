@@ -59,6 +59,12 @@
     <Compile Include="Collections\StackOfDictionaries.cs" />
     <Compile Include="Conditions\Condition.cs" />
     <Compile Include="Conditions\ConditionEntry.cs" />
+    <Compile Include="EMK\Arc.cs" />
+    <Compile Include="EMK\AStar.cs" />
+    <Compile Include="EMK\Graph.cs" />
+    <Compile Include="EMK\Node.cs" />
+    <Compile Include="EMK\SortableList.cs" />
+    <Compile Include="EMK\Track.cs" />
     <Compile Include="Functions\FunctionHandlers.cs" />
     <Compile Include="Functions\Functions.cs" />
     <Compile Include="Functions\FunctionsBasic.cs" />
