@@ -99,7 +99,7 @@ namespace EMK.Cartography
             lock (graph)
             {
                 Initialize(startNode, endNode);
-                while (NextStep())
+                while (!CancelPathSearch && NextStep())
                 {
                 }
 
@@ -316,5 +316,7 @@ namespace EMK.Cartography
                 return path;
             }
         }
+
+        public bool CancelPathSearch { get; set; }
     }
 }
